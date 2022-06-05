@@ -19,3 +19,5 @@ ResNet32 on CIFAR10-LT with imbalanced factor of 10:<br>
 
 ResNet32 on noisy CIFAR10 with 20\% pair-flip noise:<br>
 `python main.py --dataset cifar10 --corruption_type flip2 --corruption_ratio 0.2`
+
+The default sample weighting network in the code is Neural Regression Tree with pruning. You can also use MLP as the sample weighting network. Both the two networks are in the file ``model.py".
