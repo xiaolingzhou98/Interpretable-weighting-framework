@@ -10,7 +10,7 @@ import torch.nn.functional as F
 from loguru import logger
 import csv
 
-parser = argparse.ArgumentParser(description='Explainable_weighting_framework')
+parser = argparse.ArgumentParser(description='Interpretable_weighting_framework')
 parser.add_argument('--device', type=str, default='cuda')
 parser.add_argument('--seed', type=int, default=1)
 parser.add_argument('--meta_net_hidden_size', type=int, default=100)
