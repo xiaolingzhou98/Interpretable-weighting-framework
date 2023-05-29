@@ -1,6 +1,6 @@
-# Explainable weighting framework
+# Interpretable weighting framework
  
-This is the code for the paper: Investigating the Weighting Mechanism Using an Explainable Weighting Framework<br>
+This is the code for the paper: Investigating the Weighting Mechanism Using an Interpretable Weighting Framework<br>
 
 Setups
 -------  
@@ -10,7 +10,7 @@ The requiring environment is as bellow:<br>
 * pytorch 1.9.0<br>
 * torchvision 0.10.0<br>
 
-Running Explainable weighting framework on benchmark datasets (CIFAR-10 and CIFAR-100).
+Running Interpretable weighting framework on benchmark datasets (CIFAR-10 and CIFAR-100).
 -------  
 Here are two examples for training imbalanced and noisy data:<br>
 ResNet32 on CIFAR10-LT with imbalanced factor of 10:<br>
